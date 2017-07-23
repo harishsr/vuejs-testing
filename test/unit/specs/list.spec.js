@@ -6,6 +6,7 @@ describe('List.vue', () => {
     // build component
     const Constructor = Vue.extend(List);
     const ListComponent = new Constructor().$mount();
-    expect(ListComponent.$el.textcontent).to.contain('play games');
+
+    expect(ListComponent.$el.textContent).to.contain('play games');
   });
 });
