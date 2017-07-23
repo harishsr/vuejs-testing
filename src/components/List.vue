@@ -16,8 +16,10 @@
 <script>
 export default {
   name: 'list',
-  data: {
-    listItems: ['buy food', 'play games', 'sleep'],
+  data() {
+    return {
+      listItems: ['buy food', 'play games', 'sleep'],
+    };
   },
 };
 </script>
